@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0525.1210                               -->
+<workbook original-version='18.1' source-build='2020.2.1 (20202.20.0525.1210)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Analysis Problem (Region Data)' inline='true' name='federated.07jyfh114dssea16sl9r00gp7d7b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Region Data' name='excel-direct.0pe5d6z1ggrz4f11abd9s1venuak'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/noon_user/Desktop/Region Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0pe5d6z1ggrz4f11abd9s1venuak' name='Analysis Problem' table='[&apos;Analysis Problem$&apos;]' type='table'>
+          <columns gridOrigin='A1:P10:no:A1:P10:0' header='yes' outcome='2'>
+            <column datatype='string' name='Region' ordinal='0' />
+            <column datatype='string' name='Municipality' ordinal='1' />
+            <column datatype='integer' name='Number of households' ordinal='2' />
+            <column datatype='integer' name='Total Device' ordinal='3' />
+            <column datatype='integer' name='Population &gt; 6 years' ordinal='4' />
+            <column datatype='integer' name='Households not have Computer' ordinal='5' />
+            <column datatype='integer' name='Number of people without mobile phones' ordinal='6' />
+            <column datatype='integer' name='Government to help establish a community ICT learning center' ordinal='7' />
+            <column datatype='integer' name='Government to come to help with cheap mobile phone bills' ordinal='8' />
+            <column datatype='integer' name='Government to come to help the internet cheap' ordinal='9' />
+            <column datatype='integer' name='Internet User' ordinal='10' />
+            <column datatype='integer' name='Cannot use internet' ordinal='11' />
+            <column datatype='integer' name='Number of people without mobile phones 1' ordinal='12' />
+            <column datatype='integer' name='Cannot use mobile phone' ordinal='13' />
+            <column datatype='integer' name='Cannot use internet 1' ordinal='14' />
+            <column datatype='integer' name='Cannot access internet*' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0pe5d6z1ggrz4f11abd9s1venuak' name='Analysis Problem' table='[&apos;Analysis Problem$&apos;]' type='table'>
+          <columns gridOrigin='A1:P10:no:A1:P10:0' header='yes' outcome='2'>
+            <column datatype='string' name='Region' ordinal='0' />
+            <column datatype='string' name='Municipality' ordinal='1' />
+            <column datatype='integer' name='Number of households' ordinal='2' />
+            <column datatype='integer' name='Total Device' ordinal='3' />
+            <column datatype='integer' name='Population &gt; 6 years' ordinal='4' />
+            <column datatype='integer' name='Households not have Computer' ordinal='5' />
+            <column datatype='integer' name='Number of people without mobile phones' ordinal='6' />
+            <column datatype='integer' name='Government to help establish a community ICT learning center' ordinal='7' />
+            <column datatype='integer' name='Government to come to help with cheap mobile phone bills' ordinal='8' />
+            <column datatype='integer' name='Government to come to help the internet cheap' ordinal='9' />
+            <column datatype='integer' name='Internet User' ordinal='10' />
+            <column datatype='integer' name='Cannot use internet' ordinal='11' />
+            <column datatype='integer' name='Number of people without mobile phones 1' ordinal='12' />
+            <column datatype='integer' name='Cannot use mobile phone' ordinal='13' />
+            <column datatype='integer' name='Cannot use internet 1' ordinal='14' />
+            <column datatype='integer' name='Cannot access internet*' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P10:no:A1:P10:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTH_RTH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Municipality</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Municipality]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Municipality</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LTH_RTH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of households</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of households]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Number of households</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Device</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Device]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Total Device</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population &gt; 6 years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population &gt; 6 years]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Population &gt; 6 years</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households not have Computer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Households not have Computer]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Households not have Computer</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of people without mobile phones</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of people without mobile phones]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Number of people without mobile phones</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Government to help establish a community ICT learning center</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Government to help establish a community ICT learning center]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Government to help establish a community ICT learning center</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Government to come to help with cheap mobile phone bills</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Government to come to help with cheap mobile phone bills]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Government to come to help with cheap mobile phone bills</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Government to come to help the internet cheap</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Government to come to help the internet cheap]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Government to come to help the internet cheap</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Internet User</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Internet User]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Internet User</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cannot use internet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cannot use internet]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Cannot use internet</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of people without mobile phones 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of people without mobile phones 1]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Number of people without mobile phones 1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cannot use mobile phone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cannot use mobile phone]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Cannot use mobile phone</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cannot use internet 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cannot use internet 1]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Cannot use internet 1</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cannot access internet*</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cannot access internet*]</local-name>
+            <parent-name>[Analysis Problem]</parent-name>
+            <remote-alias>Cannot access internet*</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Government to come to help the internet cheap]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Government to come to help with cheap mobile phone bills]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Government to help establish a community ICT learning center]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Population &gt; 6 years]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Analysis Problem' datatype='table' name='[__tableau_internal_object_id__].[Analysis Problem_FD2B73B87C45448F8FF9945D38263569]' role='measure' type='quantitative' />
+      <column-instance column='[Government to come to help the internet cheap]' derivation='Sum' name='[sum:Government to come to help the internet cheap:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Government to come to help with cheap mobile phone bills]' derivation='Sum' name='[sum:Government to come to help with cheap mobile phone bills:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Government to help establish a community ICT learning center]' derivation='Sum' name='[sum:Government to help establish a community ICT learning center:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population &gt; 6 years]' derivation='Sum' name='[sum:Population &gt; 6 years:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help with cheap mobile phone bills:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help the internet cheap:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Population &gt; 6 years:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to help establish a community ICT learning center:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Thailand&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Analysis Problem' id='Analysis Problem_FD2B73B87C45448F8FF9945D38263569'>
+            <properties context=''>
+              <relation connection='excel-direct.0pe5d6z1ggrz4f11abd9s1venuak' name='Analysis Problem' table='[&apos;Analysis Problem$&apos;]' type='table'>
+                <columns gridOrigin='A1:P10:no:A1:P10:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Region' ordinal='0' />
+                  <column datatype='string' name='Municipality' ordinal='1' />
+                  <column datatype='integer' name='Number of households' ordinal='2' />
+                  <column datatype='integer' name='Total Device' ordinal='3' />
+                  <column datatype='integer' name='Population &gt; 6 years' ordinal='4' />
+                  <column datatype='integer' name='Households not have Computer' ordinal='5' />
+                  <column datatype='integer' name='Number of people without mobile phones' ordinal='6' />
+                  <column datatype='integer' name='Government to help establish a community ICT learning center' ordinal='7' />
+                  <column datatype='integer' name='Government to come to help with cheap mobile phone bills' ordinal='8' />
+                  <column datatype='integer' name='Government to come to help the internet cheap' ordinal='9' />
+                  <column datatype='integer' name='Internet User' ordinal='10' />
+                  <column datatype='integer' name='Cannot use internet' ordinal='11' />
+                  <column datatype='integer' name='Number of people without mobile phones 1' ordinal='12' />
+                  <column datatype='integer' name='Cannot use mobile phone' ordinal='13' />
+                  <column datatype='integer' name='Cannot use internet 1' ordinal='14' />
+                  <column datatype='integer' name='Cannot access internet*' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Problem Betewwn In and Out manicipality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Analysis Problem (Region Data)' name='federated.07jyfh114dssea16sl9r00gp7d7b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07jyfh114dssea16sl9r00gp7d7b'>
+            <column datatype='integer' name='[Government to come to help the internet cheap]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Government to come to help with cheap mobile phone bills]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Government to help establish a community ICT learning center]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Municipality]' role='dimension' type='nominal' />
+            <column-instance column='[Municipality]' derivation='None' name='[none:Municipality:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Government to come to help the internet cheap]' derivation='Sum' name='[sum:Government to come to help the internet cheap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Government to come to help with cheap mobile phone bills]' derivation='Sum' name='[sum:Government to come to help with cheap mobile phone bills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Government to help establish a community ICT learning center]' derivation='Sum' name='[sum:Government to help establish a community ICT learning center:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help with cheap mobile phone bills:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to help establish a community ICT learning center:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help the internet cheap:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help with cheap mobile phone bills:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to help establish a community ICT learning center:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help the internet cheap:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.07jyfh114dssea16sl9r00gp7d7b].[Multiple Values]' scope='rows' value='People' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07jyfh114dssea16sl9r00gp7d7b].[Multiple Values]</rows>
+        <cols>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Municipality:nk]</cols>
+      </table>
+      <simple-id uuid='{BAAE8DA3-49B5-424F-80CC-7FE5CD1A703C}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{655B40E7-D081-4339-B8AD-C61FC357695D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='66667' id='3' name='Problem Betewwn In and Out manicipality' w='16691' x='24671' y='14714' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='5' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='4' param='vert' w='98828' x='586' y='1042'>
+                <zone fixed-size='280' h='66667' id='3' is-fixed='true' name='Problem Betewwn In and Out manicipality' w='16691' x='24671' y='14714'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1504B5D9-B743-4F78-997E-B616C8D9A723}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Problem Betewwn In and Out manicipality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Government to come to help the internet cheap:qk]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Government to come to help with cheap mobile phone bills:qk]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Government to help establish a community ICT learning center:qk]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Municipality:nk]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Region:nk]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to help establish a community ICT learning center:qk]</field>
+            <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Population &gt; 6 years:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F21A9C24-4DE0-4BB2-A5CD-F59F61B8C792}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2985CA3F-534A-4F14-B7AF-137383EBE505}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Problem Betewwn In and Out manicipality'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Municipality:nk]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[Multiple Values]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[none:Municipality:nk]</field>
+                    <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]</field>
+                    <field>[federated.07jyfh114dssea16sl9r00gp7d7b].[Multiple Values]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>&quot;Outside&quot;</value>
+                  <value>&quot;[federated.07jyfh114dssea16sl9r00gp7d7b].[sum:Government to come to help the internet cheap:qk]&quot;</value>
+                  <value>3494959.0</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+          <highlight field='[federated.07jyfh114dssea16sl9r00gp7d7b].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{4EC51364-0F4A-42DA-B6B9-0F71C11EF0EE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAPDklEQVR4nO3d6W8bZ37A8e/M8L4lSrIkH5IPyTZ9yJbjC/G2yXa7SLPYLfbFdlGgQP+V
+      AP1HirbAYlFsN0Xi1Nlsd5M6ia9YtmzrsKjLukOJoihS4jkzfeFYTtaJbcmiSfH5fQADpsUZ
+      PaL55ZAcPno027ZthFCUXu0BCFFNEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQ
+      mgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJ
+      AEJpEoBQmgQglCYBCKVJAEJpEoBQmgRQJaX8GqvZ/MblbDpFvmRWcURqclR7APVmbuhLPhnK
+      cLjNTwEff32x93uvl1mcYGQ5yIWeDgAmBu8SPnyefY2+l/o+43f+xI1ZjYPNHjIFjb/5qwvf
+      +fqt69c5feGC/Ae/gNw+FdB15AQXYm188OFl7t4qsppNY4T3EiJLrmxjeELsb4CJ+BBmepz2
+      Qyc3to0P9rOcyaN7gnTvcvPFvVn8eh4j0IC5luJw7yVaGx5H0h3robcjwO8//JjC2jI3bg9i
+      mmVOn+nl7u3bWE4nsaMx7t++hW1bdMZ6mRi6x6VL5/i3f/0t//jP/8RXN66BZXH24pt8+Nv/
+      4Ee/+DUTD/ro2t/Kp7fHaIu48EU7Od69t1o3Z0XJU6AKiA/f5+b1a3TFTrM4O0Fwd4w3j+/l
+      0VKec+fOszo/Qc6E/V1HefNHlxi4e+ubLU2+vHYTh8NB/80brOWyNLUf4NihFlyBNmIHWpia
+      S218n5HBfv5w5Qq7O7vpu/YFZd2BXlim7+ECHZ376T1zhrWZB0wu5fF4nVy9+iXrmRTzE3H8
+      kTCziQQrmTI+8swkEniDfoaGH5FILqOXczS0dXLu4imm4hPVuSFfAzkCVEDXkROci7UDsBAP
+      03VgL5DDLhcBm5JpY3zz0FPKZTBcAaAEaISjLfT2nqHn5ElSc4PP/T7dsR7OHGjk/fffp6M5
+      QFvXMTqbz1Mqm3z2xzEsy8bl8bC74wBneg9x8lSJ2eGvuHJzlF/97BK/+81/8sbf/QNd4Tz/
+      /psPePuXv2bk2ge4okcrefPUFOO99957r9qDqDduf5iw371xOdIYxTCchDww9DBOR9dxopEQ
+      iblp5hZXuHjhLA5dIxBuZHfUx/2hEVYyeXY1R3F5AoT8bpyeAEG/e+MywNTUFIsLM+zvPsHR
+      o0cYHehnfmEBf6SJPS0h7g+MsLvrBIWlSaZm5tCcPvbubWc5vc6R7m4y2Qw9x47i8oZYzaQ4
+      ETtMPrvKoeOn8LkNHG4fkYAXcBCNRqp0a1aWJovkCZXJawChNAlAKE0C2GZWqUAqnXmFPZiM
+      xMee7s8sMfign4WllVcfnHiGBLDNitkkfQPxV9iDRXwjAIuPL1+mff9hFuJ9DD1KPHPtKx9d
+      Rs4fb528DVoh432fc2/ZpsFOE+nspaerneJ6mv4HI6QW54hd+AnXPv4dB48cZ2x8mr//xU/4
+      5OM/s6t9F2uFMgClTAI70EbE7+HU+Qt8eOUaswMZzr79c5LD18mEO5mcmKTvdh+x4yfxu+W/
+      c7PkCFAxOoePnaC35ygr6VUA1jKr5IpFdHONhaUs/nCU3t5eGrxO5iYGaT1yljfOnHp6R7bh
+      eW/ROT0BOvd30numV+78WyQBvEYTI0Ps6z5B0Ot65mvh5lbmJ0fJppc3jgDOUAva6iwra3nu
+      Xr/OwWMn8Lqc5AoFZqZnAHDpsJYrYsm72Vsi5wG2mVUqkF4v4tEtLJcft1YiW7CJBH3YZomh
+      oSFa2tpxe0MUcxmi0SipZJJwNErq61mSa2Uaw0Gaoo2P92eWGB4apLG1g9amCFa5wMDgQ9rb
+      2/EEI3i0EgPDoxyJHcPlkMezzZIAhNLkIUMoTQIQSpMAasDQQP/GC98n+m/3Uf6B6z/xv1c+
+      ImfC7b4+AEbiIxUaYf2S98622eLsOJMLaUrFAuGgn3Q2x9mzZ5kceUAqs07bvkP4rSxjX6co
+      59aJnXqDoM+PrukkZieZmE3Qtnc//lAAnRLXr97AcDlo3nuQ9gYP9+4PU0aj98zTmWahQIBU
+      Yo5P/vAJuYKFSzc5eDiGmUmQyDnpaGus4i1S2+QIsM2WZh8R2X2QsL6Ou7mDsL7ObGqd9t27
+      cRgGn336GctzU3iiezh2oIn+oUlmJsfIFfPcvPuQc+fOsbe1idF4HIsSi6k8Z8+f58FX1zA8
+      AXY1hVmde8i90cWN7xmPx2loaadzfyc9x48QsLP0DU9x53YfvmCgejfGDiABbDdNxzB0NE3H
+      0B/fvHYxw5U/36Dn9Bkagh5Ax+V2AtrT7WwT3XCiAZr29N8NwwA0dE1n4NZVVrUQp3ti2Oaz
+      H4DQvtnf3tgZ5kf6WM5DU+DZcw7iKQlgm/mCYbxOA18ogsdp4A9G8Hh9NPgM7t7pQ3f68AZD
+      +JwOHC4vkaCXUKQBh9PH/rYQN27eYnp+kcbGKBqwODfFzetfsq/7OK1tbSRmxhkem8Xvc9HQ
+      2IiuQWM0CkBzJMC9wREszcGegEV4X+zbiYnvIecBato6H12+wbs/e3tTW62ll/jT1Zv89J13
+      cMvJseeSAITS5OFBKE0CEEqTAITSJIAdrriW4vMbd8ivJvns2lfPfD0xNcpStgjA9OIK1l98
+      PbeywNj4OKNTcyST6k27lDPBO1xpLUXf/QFCLpvxiXHcWhmnDmvrOQr5Aq2tTZiZAg+WswTa
+      DzA5+EeKBYuuYzFGBx6wuz3K11kNzS7wcV+c06e72d0chkgHHc31fxJNjgB1oGNXAyPzaUJu
+      g6WlJAvz86RXczQFPCSSSR6OTnCg+zC5fJl0Nkc0oHPj5h2WFiZJrBSxS3nyuOnYt5dYRyP/
+      /ek92hv91f6xXgs5Auxwnkgbb73VRC5fxsCknF8jZzoIBby4nQZly8LtCzA1NkZs334+H87i
+      2XWSd48Hmfs6SUtLC7YNluYgk5wjh4tYdydOQ41TaHIeYAewLAtN077zEQmxPeQpkFCaBCCU
+      JgEIpcmLYAWlszmKpRfNN/sur9tJwOep0IiqRwJQ0Go2R2Y9/+Irfks07K/LAOQpkFCaBCCU
+      JgEIpUkANSK7ssiDgQFmF+a5/dU9bKvI9Zu3qz2suicvgmuEWS5RKBQolErYxQIzM/NoLjeW
+      ZWFZf/kZzlezlZP/lmVTLj9+58gwjLo5Ky0B1IhCPo/L46VUzNHU0syjmQTNzWH0b36zxHZ+
+      FGIr+9F1DYej/u4u9fcT7VAtew7Q8q3LnYc6qzUUpchrAKE0CUAoTQIQSpPXADvM0kp20+/i
+      hPwe3C5nhUa0s0kAO0wyncU0N/e2qNvlkAB+gDwFEkqTAITSJAChNAlAKE0CEEqTAITSJACh
+      NAlAKE0CEEqTAITSJIAaUcplGRwcYiWTlimRr5F8FqhGJOanKNs6q6vp50+J3MKvMrZMa2M6
+      I8iUyG+TI0CNCIUbMc0SxVJxY0pkxO9C13V0XccwjMdTErdwv9MNHYfDsfHnVaZEbnX7WiVH
+      gBoRjLZyOtq6cVmmRL4ecgQQSpMAhNIkAKE0CUAoTQIQSpMAKsm2uNf3FYnFFJYsRViTJIAK
+      Kq0lGYqP0H+3j/XNLcgiXhMJoIIeTS+glYssZfJ4jGqPRnwfORFWQaFIA7t2taIHW7ZyAle8
+      BnIEqKDGkAcCLRj5FPnt/Q3nYptIAJXk8LG+NE0ileHOnf5qj0Z8DwmggjS7TKFsYePgbG9P
+      tYcjvoe8Bqggw+Uj4DbA34xzm14E7zEWsbXNvaXk0XyAd+NyWM/iNVY3tQ+vrgPhTW2zE0gA
+      FVTKpZldSHD0WDtrJQjWyK/ndGpldK20qW0cmBUaTXXJU6AKsjBobGhgZb2EXx5qapIEUEFX
+      r17F4XRz6dJF9Jd4H3RssJ9EekWmRL5GEkAFWaU8qVSSK/9zhcILnkGspZewNCflH1gl0jRN
+      yuXyVmZEYlqPp0Q++bOlKZG29Urb1yo5MFfQT3/+q5e+rmnBejZNznA+d5XIJfcuzE0um7rL
+      4cP9rRUeS1uZEqnpskqkqJxQQxM9Z5s2LsuUyNdDngIJpckRQDHZbJYvv7iBWchuajuHr4Ef
+      v/tLDKO+PtUnAShmbGyMf/mvy+w5HtvUdsP/93uuvv0OgUCgQiOrDglAQU2d+9h38sSmtlmI
+      j1ZoNNUlrwGE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAqgRhfUM
+      w8NDTM/NypTI10g+DFcj3L4AQZ8bw2U8d5XIra3w+HSVSNPc+m93eDItU1aJFNsuOTfB5MIK
+      DsN47iqRW1vh8ekqka/yef5XGUOtkiNAjYi2H+DN9sd/b2polimRr4kcAYTSJAChNAlAKE0C
+      EEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAGqFbTEzPU3ZMkkmU4DN4tJitUdV
+      9ySAGrE0/winz8/ExBiD94fJZVe4Pzxe7WHVPQmgRpRNG38giI5Fc0OQwdFZWpoi1R5W3ZP5
+      ADWiubWNkXic3Z2dWEWTTGYFn89X7WHVPQmgRhhOL0dj3yxa4YNIJAjwnSmRmqbh1A2MTc7I
+      0mx7Yyqk1+tFm5hiZnllU/sIrj5eUcY0TXRdr5tZYZpdT2te1inLsjZWifwhtm2/8E5pmuZz
+      p0Q+uSs8bz/1FoAcAXaAl7mzvcx1niy5Wsl97DT19dPUqRc9+s9Mz7z0fgASc9MMDg4yl1je
+      +FoymXy6CLdZIpsrAvD1wsKmxrLTyFOgOhB/GMcsr7OWL3Ps5Gk8zuc/ro2MPKS7+zAjD0fQ
+      dBsbjeTCHJ0HD3J/IM7504eZz5jk0ml0w8HKwjgFZyN/+9ZF6ueu/5g8BaoT3kCYxkYD8yUe
+      zlwGDA4O4vKFSCemKGpumpubsXUXbc1BEksr2E4/pg0OHcINzTS07au7Oz/IEUAoTl4DCKVJ
+      AEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQg
+      lCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJpEoBQmgQglCYBCKVJAEJp
+      EoBQmgQglCYBCKVJAEJpEoBQmgQglPb/UHdbEXEW9DUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Problem Betewwn In and Out manicipality' width='192'>
+      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
+      bAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
